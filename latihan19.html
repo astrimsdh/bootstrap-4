@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Progress Bar</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+  <h4 class="m-3 text-center">Progress Bar</h4>
+  <div class="row">
+    <div class="col-sm-4">
+      <h6>Progress bar sederhana</h6>
+      <div class="progress mb-3">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar" role="progressbar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width:100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <h6>Progress bar dengan label</h6>
+      <p>Menambahkan <span class="text-success">label</span> di dalam tag <span class="text-info">div</span></p>
+      <div class="progress mb-3">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar" role="progressbar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width:100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <h6>Mengatur tinggi dari progress bar</h6>
+      <p>Dengan cara menambahkan <span class="text-danger">style</span> pada proggress bar tujuan</p>
+      <div class="progress mb-3" style="height:5px;">
+        <div class="progress-bar" role="progressbar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <div class="progress mb-3" style="height:15px;">
+        <div class="progress-bar" role="progressbar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
+      <div class="progress mb-3" style="height:35px;">
+        <div class="progress-bar" role="progressbar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <h6>Progress bar berwarna</h6>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-danger" role="progressbar" style="width:75%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">75%</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-warning" role="progressbar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar bg-dark" role="progressbar" style="width:100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <h6>Progress bar efek garis-garis</h6>
+      <p>Dengan menambahkan class <span class="text-danger">.progress-bar-stripped</span> pada class <span class="text-danger">.progress-bar</span></p>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-danger progress-bar-striped" role="progressbar" style="width:75%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">75%</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success progress-bar-striped" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar bg-dark progress-bar-striped" role="progressbar" style="width:100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <h6>Progress bar efek garis-garis animasi</h6>
+      <p>Dengan menambahkan class <span class="text-danger">.progress-bar-animated</span> pada class <span class="text-danger">.progress-bar-striped</span></p>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-danger progress-bar-animated progress-bar-striped" role="progressbar" style="width:75%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">75%</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-warning progress-bar-animated progress-bar-striped" role="progressbar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success progress-bar-animated progress-bar-striped" role="progressbar" style="width:50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar bg-dark progress-bar-animated progress-bar-striped" role="progressbar" style="width:100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+      </div>
+    </div>
+  </div>
+  <!-- End Container -->
+  </div>
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

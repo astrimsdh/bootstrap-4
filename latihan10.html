@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Input Group</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+  <h4 class="m-3 text-center">Input Group</h4>
+  <div class="row">
+    <div class="col-sm-4 m-2 card card-body">
+      <h6>Input Group Sederhana</h6>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Username" aria-labelledby="username">
+        <div class="input-group-append">
+          <span class="input-group-text" id="username">@</span>
+        </div>
+      </div>
+      <div class="input-group mb-3">
+        <input type="number" class="form-control">
+        <div class="input-group-append">
+          <span class="input-group-text" id="email">@acils.com</span>
+        </div>
+      </div>
+      <div class="form-group mb-3 row">
+        <label for="harga" class="col-3 col-form-label">Harga</label>
+        <div class="input-group col-9 col-form-input">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Rp.</span>
+          </div>
+          <input type="number" class="form-control"></input>
+          <div class="input-group-append">
+            <span class="input-group-text">,-</span>
+          </div>
+        </div>
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">With textarea</span>
+        </div>
+        <textarea name="" id="" cols="2" rows="2" class="form-control"></textarea>
+      </div>
+    </div>
+    <div class="col-sm-4 m-2 card card-body">
+      <h6>Ukuran dari input Grup</h6>
+      <div class="input-group input-group-sm mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">.input-group-sm(small)</span>
+        </div>
+        <input type="text" class="form-control">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">input group sedang</span>
+        </div>
+        <input type="text" class="form-control">
+      </div>
+      <div class="input-group input-group-lg mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">.input-group-lg (large)</span>
+        </div>
+        <input type="text" class="form-control">
+      </div>
+    </div>
+    <div class="col-sm-3 m-2 card card-body">
+      <h6>Input Group Checkbox dan Radio </h6>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <input type="checkbox">
+          </div>
+        </div>
+        <input type="text" class="form-control">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <input type="radio" >
+          </div>
+        </div>
+        <input type="text" class="form-control">
+      </div>
+    </div>
+    <div class="col-sm-5 m-2 card card-body">
+      <h6>Multiple Input</h6>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Multiple input</span>
+        </div>
+        <input type="text" class="form-control">
+        <input type="text" class="form-control">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text">$</span>
+          <span class="input-group-text">0.00</span>
+        </div>
+        <input type="text" class="form-control">
+      </div>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control">
+        <div class="input-group-append">
+          <span class="input-group-text">$</span>
+          <span class="input-group-text">0.00</span>
+        </div>
+      </div>
+    </div>
+    <div class="com-sm-5 m-2 card card-body">
+      <h6>Input Group with Buttons</h6>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <button class="btn btn-primary">Tambah</button>
+        </div>
+        <input type="text" class="form-control">
+      </div>
+    </div>
+  </div>
+
+  <!-- End Container -->
+  </div>
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

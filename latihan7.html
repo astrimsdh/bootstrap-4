@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Collapse</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+  <h5 class="m-3 text-center">Collapse Item</h5>
+  <div class="btn-group">
+    <button class="btn btn-warning" type="button" data-target="#card1" data-toggle="collapse" aria-expanded="false" aria-controls="card1" >
+      Card
+    </button>
+    <button class="btn btn-danger" type="button" data-target="#carousel1" data-toggle="collapse" aria-expanded="false" aria-controls="carousel1" >
+      Carousel
+    </button>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <div class="collapse" id="card1">
+        <div class="card mt-3">
+          <div class=" card-body" >
+            ini
+          </div>
+          <div class="card-footer">
+            Halo
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-8">
+      <div class="collapse carousel slide mt-3" id="carousel1" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel1" data-slide-to="1"></li>
+          <li data-target="#carousel1" data-slide-to="2"></li>
+        </ol>
+        <a href="#carousel1" class="carousel-control-prev" data-slide="prev" role="button">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Sebelumnya</span>
+        </a>
+        <a href="#carousel1" class="carousel-control-next" data-slide="next" role="button">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Berikutnya</span>
+        </a>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/carousel1.jpg" alt="" class="d-block w-100 h-100">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Gunung Papandaian</h5>
+              <p>Gunung ini berada di Jawa Barat, Indonesia</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel2.jpg" alt="" class="d-block w-100 h-100">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel3.jpg" alt="" class="d-block w-100 h-100s">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card card-body mt-3">
+    Hallo Aciel
+  </div>
+
+  <!-- End Container -->
+  </div>
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

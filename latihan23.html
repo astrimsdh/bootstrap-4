@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tooltip</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+  <h4 class="m-3 text-center">Tooltip</h4>
+  <button class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip ini berada Di atas">Atas</button>
+  <button class="btn btn-primary" data-toggle="tooltip" data-placement="right" title="Tooltip ini berada Di kanan">Kanan</button>
+  <button class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="Tooltip ini berada Di kiri">Kiri</button>
+  <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Tooltip ini berada Di bawah">Bawah</button>
+  <!-- End Container -->
+  </div>
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script>
+    $(function(){
+      $('[data-toggle="tooltip"]'.tooltip()
+    })
+  </script>
+</body>
+</html>

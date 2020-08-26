@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Spinner</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+  <h4 class="m-3 text-center">Spinner</h4>
+  <p>Spinner dapat dibuat menggunakan dua cara yaitu spinner grow dan spinner border. Cara menggunakan spinner grow adalah dengan menambahkan class <span class="text-danger">.spinner-grow</span>. Sedangkan untuk membuat spinner border adalah dengan menambahkan class <span class="text-danger">.spinner-border</span></p>
+  <div class="row">
+    <div class="col-sm-3 card card-body m-1">
+      <h5>Spinner Border</h5>
+      <div class="spinner-border mb-3" role="status">
+        <div class="sr-only"></div>
+      </div>
+      <h5>Spinner Grow</h5>
+      <div class="spinner-grow mb-3" role="status">
+        <div class="sr-only"></div>
+      </div>
+    </div>
+    <div class="col-sm-3 card card-body m-1">
+      <h5>Spinner warna</h5>
+      <div class="spinner-border mb-3 text-primary" role="status">
+        <div class="sr-only"></div>
+      </div>
+      <div class="spinner-border mb-3 text-danger" role="status">
+        <div class="sr-only"></div>
+      </div>
+      <div class="spinner-border mb-3 text-success" role="status">
+        <div class="sr-only"></div>
+      </div>
+      <div class="spinner-border mb-3 text-warning" role="status">
+        <div class="sr-only"></div>
+      </div>
+      <div class="spinner-border mb-3 text-info" role="status">
+        <div class="sr-only"></div>
+      </div>
+      <div class="spinner-border mb-3 text-light" role="status">
+        <div class="sr-only"></div>
+      </div>
+      <div class="spinner-border mb-3 text-dark" role="status">
+        <div class="sr-only"></div>
+      </div>
+      <div class="spinner-border mb-3 text-secondary" role="status">
+        <div class="sr-only"></div>
+      </div>
+    </div>
+    <div class="col-sm-3 card card-body m-1">
+      <h6>Ukuran efek loading spinner</h6>
+      <p>Untuk mengubah ukuran dari spinner bisa menggunakan class <span class="text-danger">.spinner-border-sm</span> atau <span class="text-danger">.spinner-grow-sm</span> atau bisa menggunakan css dengan menuliskan <span class="text-success">width dan height</span> dengan satuan rem</p>
+      <div class="spinner-border mb-3 text-dark spinner-border-sm" role="status">
+        <div class="sr-only"></div>
+      </div>
+      <div class="spinner-border mb-3 text-dark " role="status">
+        <div class="sr-only"></div>
+      </div>
+      <div class="spinner-border mb-3 text-dark " role="status" style="height: 5rem;width:5rem;">
+        <div class="sr-only"></div>
+      </div>
+    </div>
+    <div class="col-sm-6 card card-body m-1">
+      <h5>Posisi Spinner</h5>
+      <h6>Posisi spinner di tengah (menggunakan flex)</h6>
+      <div class="d-flex justify-content-center">
+        <div class="spinner-border mb-3 text-dark " role="status">
+          <div class="sr-only"></div>
+        </div>
+      </div>
+      <hr>
+      <h6>Posisi spinner di akhir (menggunakan flex)</h6>
+      <div class="d-flex justify-content-end">
+        <div class="spinner-border mb-3 text-dark " role="status">
+          <div class="sr-only"></div>
+        </div>
+      </div>
+      <hr>
+      <h6>Posisi spinner di akhir (menggunakan float)</h6>
+      <div class="">
+        <div class="spinner-border mb-3 text-dark float-right" role="status">
+          <div class="sr-only"></div>
+        </div>
+      </div>
+      <hr>
+      <h6>Posisi spinner di tengah (menggunakan text-senter)</h6>
+      <div class="d-flex justify-content-center">
+        <div class="spinner-border mb-3 text-dark text-center" role="status">
+          <div class="sr-only"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-5 card card-body m-1">
+      <h6>Penerapan spinner ke dalam button</h6>
+      <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        Loading...
+      </button>
+      <button class="btn btn-danger mt-3">
+        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+        Loading...
+      </button>
+    </div>
+
+  </div>
+  <!-- End Container -->
+  </div>
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Navs</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+  <h4 class="m-3 text-center">Navs</h4>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card card-body">
+        <p>Untuk membuat nav kita bisa menggunakan class <span class="text-danger">.nav</span></p>
+        <h6>Navs sederhana</h6>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link active">Menu 1</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Menu 2</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Menu 3</a></li>
+          <li class="nav-item"><a href="#" class="nav-link disabled">Menu 4</a></li>
+        </ul>
+        <h6 class="mt-3">Tidak menggunakan list dalam pembuatannya</h6>
+        <div class="nav">
+          <a href="#" class="nav-link active">Menu 1</a>
+          <a href="#" class="nav-link">Menu 2</a>
+          <a href="#" class="nav-link">Menu 3</a>
+          <a href="#" class="nav-link disabled">Menu 4</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card card-body">
+        <h5>Posisi diawal</h5>
+        <div class="nav mt-0">
+          <a href="#" class="nav-link">Menu 1</a>
+          <a href="#" class="nav-link">Menu 2</a>
+          <a href="#" class="nav-link">Menu 3</a>
+          <a href="#" class="nav-link">Menu 4</a>
+        </div>
+        <hr>
+        <h5>Posisi ditengah</h5>
+        <p class="mb-0">menggunakn class <span class="text-danger">.justify-content-center</span></p>
+        <div class="nav mt-0 justify-content-center">
+          <a href="#" class="nav-link">Menu 1</a>
+          <a href="#" class="nav-link">Menu 2</a>
+          <a href="#" class="nav-link">Menu 3</a>
+          <a href="#" class="nav-link">Menu 4</a>
+        </div>
+        <hr>
+        <h5>Posisi diakhir</h5>
+        <p class="mb-0">menggunakan class <span class="text-danger">.justify-content-end</span></p>
+        <div class="nav mt-0 justify-content-end">
+          <a href="#" class="nav-link">Menu 1</a>
+          <a href="#" class="nav-link">Menu 2</a>
+          <a href="#" class="nav-link">Menu 3</a>
+          <a href="#" class="nav-link">Menu 4</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card card-body">
+        <h5>Menu navs vertikal</h5>
+        <p class="mb-0">menggunakan class <span class="text-danger">.flex-column</span></p>
+        <div class="nav mt-0 flex-column">
+          <a href="#" class="nav-link">Menu 1</a>
+          <a href="#" class="nav-link">Menu 2</a>
+          <a href="#" class="nav-link">Menu 3</a>
+          <a href="#" class="nav-link">Menu 4</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 mt-2">
+      <div class="card card-body">
+        <h5>Menu navigasi tabs</h5>
+        <p class="mb-0">menggunakan class <span class="text-danger">.nav-tabs</span></p>
+        <div class="nav mt-0 nav-tabs">
+          <a href="#" class="nav-link">Menu 1</a>
+          <a href="#" class="nav-link">Menu 2</a>
+          <a href="#" class="nav-link">Menu 3</a>
+          <a href="#" class="nav-link">Menu 4</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 mt-2">
+      <div class="card card-body">
+        <h5>Menu navigasi pills</h5>
+        <p class="mb-0">menggunakan class <span class="text-danger">.nav-pills</span></p>
+        <div class="nav mt-0 nav-pills">
+          <a href="#" class="nav-link">Menu 1</a>
+          <a href="#" class="nav-link">Menu 2</a>
+          <a href="#" class="nav-link">Menu 3</a>
+          <a href="#" class="nav-link">Menu 4</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 mt-2">
+      <div class="card card-body">
+        <h5>Menu navigasi menggunakan dropdown biasa</h5>
+        <p class="mb-0">menggunakan class <span class="text-danger">.nav-pills</span></p>
+        <ul class="nav">
+          <li class="nav-item"><a href="#" class="nav-link">Menu 1</a></li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Menu 2</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">dropdown 1</a>
+              <a href="#" class="dropdown-item">dropdown 2</a>
+              <a href="#" class="dropdown-item">dropdown 3</a>
+              <a href="#" class="dropdown-item">dropdown 4</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Menu 3</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Menu 4</a></li>
+        </ul>
+        <hr>
+        <h5>Menu navigasi menggunakan dropdown biasa</h5>
+        <p class="mb-0">menggunakan class <span class="text-danger">.nav-pills</span></p>
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a href="#" class="nav-link">Menu 1</a></li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Menu 2</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">dropdown 1</a>
+              <a href="#" class="dropdown-item">dropdown 2</a>
+              <a href="#" class="dropdown-item">dropdown 3</a>
+              <a href="#" class="dropdown-item">dropdown 4</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Menu 3</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Menu 4</a></li>
+        </ul>
+        <h5>Menu navigasi menggunakan dropdown pills</h5>
+        <p class="mb-0">menggunakan class <span class="text-danger">.nav-pills</span></p>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link">Menu 1</a></li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Menu 2</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">dropdown 1</a>
+              <a href="#" class="dropdown-item">dropdown 2</a>
+              <a href="#" class="dropdown-item">dropdown 3</a>
+              <a href="#" class="dropdown-item">dropdown 4</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Menu 3</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Menu 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Container -->
+  </div>
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

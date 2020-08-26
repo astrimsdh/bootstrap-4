@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modals</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+  <h4 class="m-3 text-center">Modals</h4>
+  <div class="row">
+    <div class="col-4">
+      <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#modal1">Button modal pertama</button>
+      <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal Pertama</h5>
+              <button class="close" type="button" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">Halo ini modal sederhana</div>
+            <div class="modal-footer">
+              <button class="btn btn-danger" data-dismiss="modal">Tutup</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <h6>Ukuran modal dialog</h6>
+      <p class="mb-0">Modal Kecil (small) <span class="text-danger">.modal-sm</span></p>
+      <button class="btn btn-info mb-2 mt-0" data-toggle="modal" data-target=".modalkecil">modal kecil</button>
+      <p class="mb-0">Modal besar (large) <span class="text-danger">.modal-lg</span></p>
+      <button class="btn btn-info mb-2" data-toggle="modal" data-target=".modalbesar">modal besar</button>
+      <p class="mb-0">Modal extra besar (extra large) <span class="text-danger">.modal-xl</span></p>
+      <button class="btn btn-info mb-2" data-toggle="modal" data-target=".modalextra">modal extra besar</button>
+
+      <!-- Modal  -->
+      <div class="modal fade modalkecil" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">Modal Kecil</div>
+            <div class="modal-body">Contoh modal berukuran paling kecil</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade modalbesar" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">Modal besar</div>
+            <div class="modal-body">Contoh modal berukuran besar</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade modalextra" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">Modal Extra Besar</div>
+            <div class="modal-body">Contoh modal berukuran paling besar</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <h6>Contoh modal yang terdapat scroll</h6>
+      <p>Dengan menambahkan class <span class="text-danger">.modal-dialog-scrollable</span> di dekat class <span class="text-danger">.modal-dialog</span></p>
+      <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#modalscroll">Button modal pertama</button>
+      <div class="modal fade" id="modalscroll" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modalyang menggunakan scroll</h5>
+              <button class="close" type="button" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptatem, est at, quod vitae perferendis assumenda rerum culpa esse consequuntur tenetur molestiae necessitatibus ea eos ab eaque tempore earum voluptates provident quidem minima incidunt! Necessitatibus vero tempora illo. Nihil asperiores magni eum laboriosam vitae excepturi minima corporis veniam nobis deserunt ipsa placeat officia, aliquid molestiae atque voluptatum cumque. Minima fuga, alias? Similique modi repudiandae, facere aliquam cupiditate ducimus libero veritatis non odio, temporibus, veniam ipsum. Dolorem numquam expedita, unde? Atque voluptatibus quis magnam cupiditate nostrum omnis recusandae cum earum similique, consequatur molestias tempore quos. Eveniet vel eaque omnis, voluptates non? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate vel doloribus dicta quis, rerum, explicabo enim earum itaque consequuntur blanditiis sed voluptates magnam sit, molestiae ducimus quo ullam veritatis? Inventore vel, quasi assumenda rem asperiores adipisci, nisi atque perferendis minus repellendus exercitationem doloremque, nesciunt odit, temporibus dolorum illo. Quaerat mollitia earum hic expedita eos ab, corporis consectetur molestiae aspernatur saepe a, nemo quod sunt cupiditate, at dolorem nostrum similique. Ipsum error tempora reiciendis, neque ea pariatur aliquid! Maxime ipsa, natus adipisci modi nesciunt in facilis dolorum, aspernatur voluptas, amet et rem impedit accusamus mollitia illo cum ut, autem quam ab!</div>
+            <div class="modal-footer">
+              <button class="btn btn-danger" data-dismiss="modal">Tutup</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Container -->
+  </div>
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

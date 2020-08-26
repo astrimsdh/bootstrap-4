@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Button</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+  <h5 class="m-3">Contoh 1</h5>
+  <div class="btn-group">
+    <button class="btn btn-primary">Tombol 1</button>
+    <button class="btn btn-primary">Tombol 2</button>
+    <div class="btn-group" role="group">
+      <button id="btndrop" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Tombol Dropdown
+      </button>
+      <div class="dropdown-menu" aria-labelledby="btndrop">
+        <a href="#" class="dropdown-item">Link 1</a>
+        <a href="#" class="dropdown-item">Link 2</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="btn-group-vertical col-9 m-2">
+    <button class="btn btn-primary">tombol 1</button>
+    <button class="btn btn-primary">tombol 2</button>
+    <button class="btn btn-primary">tombol 3</button>
+    <button class="btn btn-primary">tombol 4</button>
+    <button class="btn btn-primary">tombol 5</button>
+  </div>
+
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
